@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bonjour, je m’appelle Loïc Turpin. Passionné par la programmation, le montage et le motion design, je me suis orienté vers le multimédia depuis 2019.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <script src="js/libs/lottie-player.js"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+    <script src="js/libs/tinyTypewriter.min.js"></script>
+    <script src="js/libs/particles.js"></script>
+    <script src="js/libs/particlesSettings.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <title>PORT FOLIO - Cégep de Matane - Loïc Turpin</title>
+</head>
+
+
+<body>
+
+    <div class="loaderPage">
+        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_4moaa67f.json" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay></lottie-player>
+    </div>
+
+    <section class="invisible" id="contenus">
+        <header id="accueil">
+            <div class="area">
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="headerTop"></div>
+            <a href="#accueil"><img src="img/logo.svg" alt="logo_Loïc_Turpin" class="logo press"></a>
+            <div class="lottieMenuBurger press">
+                <lottie-player class="lottieMenuBurger_player" src="https://assets9.lottiefiles.com/packages/lf20_jqrp2evv.json" background="transparent" speed="3" style="width: 60px; height: 60px;"></lottie-player>
+            </div>
+
+
+            <nav>
+                <ul>
+                    <a class="btnNav" href="#presentation">
+                        <li>PRÉSENTATION</li>
+                    </a>
+                    <a class="btnNav" href="#siteWeb">
+                        <li>SITE WEB</li>
+                    </a>
+                    <a class="btnNav" href="#audiovisuel">
+                        <li>AUDIOVISUEL</li>
+                    </a>
+                    <a class="btnNav" href="#jeuxVideo">
+                        <li>JEUX VIDÉO</li>
+                    </a>
+                    <a class="btnNav" href="#contact">
+                        <li>CONTACT</li>
+                    </a>
+                </ul>
+            </nav>
+
+            <h1><span id="typewriter">Loïc Turpin</span></h1>
+
+            <div class="lottieArrowDown">
+                <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_td7rozqp.json" background="transparent" speed="0.8" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+            </div>
+
+        </header>
+
+        <main>
+            <section class="presentationContainer" id="presentation">
+                <h2>À propos de moi</h2>
+                <p>Je m’appelle Loïc Turpin, originaire de l’île de la Réunion, je suis récemment diplômé d’un DEC en technique d’intégration multimédia obtenue au Cégep de Matane. Passionné de programmation, je me suis spécialiser dans le developpement
+                    web et le développement de jeu vidéo. Je maitrise également plusieurs logiciels de la suite Adobe tel que: Première Pro, After Effects, Illustrator et Adobe XD.
+                </p>
+                <a href="/etudiants/2019/turpinl/portfolio/ressources/Loic_Turpin_CV.pdf" download="Loic_Turpin_CV"><button class="press">Mon CV</button></a>
+            </section>
+
+            <section class="realisationsContainer">
+
+                <h2>Réalisations</h2>
+
+                <div class="sitewebContainer" id="siteWeb">
+
+                    <h3 class="titreCategorie">Sites Web :</h3>
+                    <div class="flex spaceA center wrap">
+
+                        <div class="siteWebBox reveal">
+                            <img src="img/tesla.jpg" alt="">
+                            <div>
+                                <h3>Site Web sur la marque de voiture Tesla</h3>
+                                <p>• Projet en équipe</p>
+                                <p>• Réalisé en 2019</p>
+                                <a href="https://tim.cgmatane.qc.ca/etudiants/2019/turpinl/tesla" target="_blank"><button class="press">VISITER LE SITE</button></a>
+                            </div>
+                            <p class="description">• Réalisé dans le cadre du cours de conception Web. Je me suis occupé de toute la partie JS et d’une partie du CSS.<br><br>• Commande : Réaliser un site Web sur une marque connue, inclure une galerie d’image, un formulaire,
+                                des témoignages, ainsi que quelques informations sur la marque.<br><br>• Langages de programmation utilisés : HTML, CSS, JS.</p>
+                        </div>
+
+                        <div class="siteWebBox reveal">
+                            <img src="img/teso.jpg" alt="">
+                            <div>
+                                <h3>Site Web sur un jeu vidéo (The Elder Scrolls Online)</h3>
+                                <p>• Projet individuel</p>
+                                <p>• Réalisé en 2020</p>
+                                <a href="https://tim.cgmatane.qc.ca/etudiants/2019/turpinl/teso" target="_blank"><button class="press">VISITER LE SITE</button></a>
+                            </div>
+                            <p class="description">• Réalisé dans le cadre du cours d’ergonomie Web.<br><br>• Commande : Réaliser un site Web adaptatif (responsive) de type « one page » sur un jeu vidéo connu, inclure un favicon, une police de caractère non standard, des captures
+                                d’écran du jeu ainsi que quelques informations.<br><br>• Langages de programmation utilisés : HTML, CSS, JS.</p>
+                        </div>
+
+                        <div class="siteWebBox reveal">
+                            <img src="img/pirate.jpg" alt="">
+                            <div>
+                                <h3>Site Web d'une histoire interactive (La chasse au trésor)</h3>
+                                <p>• Projet individuel</p>
+                                <p>• Réalisé en 2020</p>
+                                <a href="https://tim.cgmatane.qc.ca/etudiants/2019/turpinl/pirate/#introduction" target="_blank"><button class="press">VISITER LE SITE</button></a>
+                            </div>
+                            <p class="description">• Réalisé dans le cadre du cours de programmation de l’interactivité.<br><br>• Commande : Réaliser un site Web adaptatif (responsive) sur une histoire à choix multiple, inclure un favicon, au moins 2 mini jeux, et une police
+                                de caractère non standard.<br><br>• Langages de programmation utilisés : HTML, CSS, JS.</p>
+                        </div>
+
+                        <div class="siteWebBox reveal">
+                            <img src="img/jeu2d.jpg" alt="">
+                            <div>
+                                <h3>Programmation d’un jeu vidéo avec « Canvas » (Space shooter 2D)</h3>
+                                <p>• Projet individuel</p>
+                                <p>• Réalisé en 2020</p>
+                                <a href="https://tim.cgmatane.qc.ca/etudiants/2019/turpinl/jeu2d" target="_blank"><button class="press">VISITER LE SITE</button></a>
+                            </div>
+                            <p class="description">• Réalisé dans le cadre du cours de programmation de l’interactivité.<br><br>• Commande : Réaliser un mini jeu en JavaScript utilisant le « Canvas », inclure un favicon, un écran de début et de fin de partie, et au moins 3
+                                fonctionnalités.
+                                <br><br>• Langages de programmation utilisés : HTML, CSS, JS.</p>
+                        </div>
+
+                        <div class="siteWebBox reveal">
+                            <img src="img/virtualWorld.jpg" alt="">
+                            <div>
+                                <h3>Programmation d’un site Web avec une base de donnée</h3>
+                                <p>• Projet individuel</p>
+                                <p>• Réalisé en 2020</p>
+                                <a href="https://tim.cgmatane.qc.ca/etudiants/2019/turpinl/virtualWorld/liste-jeux" target="_blank"><button class="press">VISITER LE SITE</button></a>
+                            </div>
+                            <p class="description">• Réalisé dans le cadre du cours de gestion de base de données.<br><br>• Commande : Réaliser un site Web qui utilise une base de données, inclure une partie administration sécuriser, un espace membre, et la possibilité d'effectuer
+                                une recherche.
+                                <br><br>• Langages de programmation utilisés : HTML, CSS, JS, PHP.</p>
+                        </div>
+
+                        <div class="siteWebBox reveal">
+                            <img src="img/trouveIntrus.jpg" alt="">
+                            <div>
+                                <h3>Programmation d’un jeu en Javascript</h3>
+                                <p>• Projet individuel</p>
+                                <p>• Réalisé en 2021</p>
+                                <a href="https://tim.cgmatane.qc.ca/plateforme/#tp2_conception_turpinl" target="_blank"><button class="press">VISITER LE SITE</button></a>
+                            </div>
+                            <p class="description">• Réalisé dans le cadre du cours de conception intéractive.<br><br>• Commande : Conceptualiser et réaliser un jeu simple en Javascript. L’application doit être intégrée sur la Plateforme Web développée à cet effet.
+                                <br><br>• Langages de programmation utilisés : HTML, CSS, JS.</p>
+                        </div>
+
+                        <div class="siteWebBox reveal">
+                            <img src="img/festivalHipster.jpg" alt="">
+                            <div>
+                                <h3>Programmation d’un site Web sur un thème donné</h3>
+                                <p>• Projet individuel</p>
+                                <p>• Réalisé en 2021</p>
+                                <a href="https://tim.cgmatane.qc.ca/etudiants/2019/turpinl/festivalHipster" target="_blank"><button class="press">VISITER LE SITE</button></a>
+                            </div>
+                            <p class="description">• Réalisé dans le cadre du cours de production multimédia.<br><br>• Commande : Réaliser le site Web d’un festival fictif qui aura lieu dans la fin de semaine du 25 septembre 2021. Cet événement culminera par une soirée spectacle
+                                le samedi avec un groupe et/ou un(e) artiste vedette invité(e).
+                                <br><br>• Langages de programmation utilisés : HTML, CSS, JS.</p>
+                        </div>
+
+                        <div class="siteWebBox reveal">
+                            <img src="img/microbrasserie.jpg" alt="">
+                            <div>
+                                <h3>Création d'un site Web avec un thème WordPress</h3>
+                                <p>• Projet en équipe</p>
+                                <p>• Réalisé en 2021</p>
+                                <a href="https://tim.cgmatane.qc.ca/prod/2021/tp2/eq4" target="_blank"><button class="press">VISITER LE SITE</button></a>
+                            </div>
+                            <p class="description">• Réalisé dans le cadre du cours de production multimédia. Je me suis principalement occupé de l'ajustement du CSS et de l'intégration.<br><br>• Commande : Une nouvelle microbrasserie ouvre ses portes bientôt dans la petite
+                                municipalité de Mont St-Pierre et désire se doter d’un site Web éditable avec le gestionnaire de contenu Wordpress.
+                                <br><br>• Langages de programmation utilisés : HTML, CSS</p>
+                        </div>
+
+                        <div class="siteWebBox reveal">
+                            <img src="img/ihumanProject.jpg" alt="">
+                            <div>
+                                <h3>Création d'un projet intéractif sous pression</h3>
+                                <p>• Projet en équipe</p>
+                                <p>• Réalisé en 2021</p>
+                                <a href="https://tim.cgmatane.qc.ca/etudiants/2019/turpinl/ihumanProject" target="_blank"><button class="press">VISITER LE SITE</button></a>
+                            </div>
+                            <p class="description">• Réalisé dans le cadre du cours de production multimédia. J'étais en charge de toute la programmation.<br><br>• Commande : L’un de nos meilleurs clients a besoin d’un projet interactif ludique en ligne pour l’événement qu’il
+                                organise samedi prochain. Il s’agit d’un symposium qui porte sur l’intelligence artificielle (IA) où de nombreuses conférences auront lieu avec des sommités du domaine.
+                                <br><br>• Langages de programmation utilisés : HTML, CSS, JS</p>
+                        </div>
+
+                        <div class="siteWebBox reveal">
+                            <img src="img/jeunesseMaritime.jpg" alt="">
+                            <div>
+                                <h3>Refonte d'un site Web (Jeunesse Maritime)</h3>
+                                <p>• Projet en équipe</p>
+                                <p>• Réalisé en 2021</p>
+                                <a href="https://tim.cgmatane.qc.ca/prod/2021/efc/eq1" target="_blank"><button class="press">VISITER LE SITE</button></a>
+                            </div>
+                            <p class="description">• Réalisé dans le cadre du cours de production multimédia. J'étais en charge la programmation.<br><br>• Commande : L’organisme possède actuellement un site web qui est malheureusement désuet et incomplet. Les membres du conseil
+                                d’administration voudraient donc faire une refonte complète de ce dernier.
+                                <br><br>• Langages de programmation utilisés : HTML, CSS, JS</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="sectionVideo" id="audiovisuel">
+                    <h3 class="titreCategorie">Animation :</h3>
+                    <div class="videosContainer flex center wrap">
+
+                        <div>
+                            <div class="videoBox">
+                                <div class="videoBanniere">
+                                    <video src="video/beats.mp4" muted loop></video>
+                                    <img src="img/beats.png" alt="">
+                                    <h3>Beats</h3>
+                                </div>
+                                <div class="videoInfos">
+                                    <!-- <a href="https://youtu.be/BvzeO4Z9RYE" target="_blank">
+                                    </a> -->
+                                    <h3>Beats</h3>
+                                    <p class="typeEtDate">Animation de logo | 2019</p>
+                                    <div class="videoInfosPlus flex hidden">
+                                        <span class="videoInfosPlus_colonneG">
+                                            <p>• Réalisé dans le cadre du cours d’animation.</p>
+                                            <p>• Commande : Réaliser une animation de logos d’une marque au choix, inclure un slogan, une musique, et au moins un changement d’angle (impression de 3D).</p>
+                                        </span>
+                                        <span class="videoInfosPlus_colonneD">
+                                            <p>• Projet individuel</p>
+                                            <p>• Logiciel utilisé : After Effects.</p>
+                                        </span>
+                                    </div>
+                                    <div class="iconContainer">
+                                        <img class="icon btnMute press" src="img/muet.svg" alt="">
+                                        <img class="icon btnInfosVideo press" src="img/plusInfos.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="videoBox">
+                                <div class="videoBanniere">
+                                    <video src="video/jimmy.mp4" muted loop></video>
+                                    <img src="img/jimmy.png" alt="">
+                                    <h3>Jimmy</h3>
+                                </div>
+                                <div class="videoInfos">
+                                    <!-- <a href="https://youtu.be/kbguoAmHwYw" target="_blank">
+                                    </a> -->
+                                    <h3>Jimmy</h3>
+                                    <p class="typeEtDate">Stop motion | 2019</p>
+                                    <div class="videoInfosPlus flex hidden">
+                                        <span class="videoInfosPlus_colonneG">
+                                            <p>• Réalisé dans le cadre du cours d’animation.</p>
+                                            <p>• Commande : Réaliser un stop motion d’environ 1 minute sur un sujet au choix.</p>
+                                        </span>
+                                        <span class="videoInfosPlus_colonneD">
+                                            <p>• Projet en équipe : Je me suis occupé de bouger notre personnage pendant le tournage, et j’ai également fait le montage vidéo final</p>
+                                            <p>• Logiciel utilisé : Première Pro, After Effects.</p>
+                                        </span>
+                                    </div>
+                                    <div class="iconContainer">
+                                        <img class="icon btnMute press" src="img/muet.svg" alt="">
+                                        <img class="icon btnInfosVideo press" src="img/plusInfos.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="videoBox">
+                                <div class="videoBanniere">
+                                    <video src="video/stickman.mp4" muted loop></video>
+                                    <img src="img/stickman.png" alt="">
+                                    <h3>Stickman</h3>
+                                </div>
+                                <div class="videoInfos">
+                                    <!-- <a href="https://youtu.be/AcjMMW7i5UU" target="_blank">
+                                    </a> -->
+                                    <h3>Stickman</h3>
+                                    <p class="typeEtDate">Court métrage | 2019</p>
+                                    <div class="videoInfosPlus flex hidden">
+                                        <span class="videoInfosPlus_colonneG">
+                                            <p>• Réalisé dans le cadre du cours d’animation.</p>
+                                            <p>• Commande : Réaliser un court-métrage d’animation simple d’environ 1 minute.</p>
+                                        </span>
+                                        <span class="videoInfosPlus_colonneD">
+                                            <p>• Projet individuel</p>
+                                            <p>• Logiciel utilisé : Première Pro, Illustrator, Animate.</p>
+                                        </span>
+                                    </div>
+                                    <div class="iconContainer">
+                                        <img class="icon btnMute press" src="img/muet.svg" alt="">
+                                        <img class="icon btnInfosVideo press" src="img/plusInfos.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="videoBox">
+                                <div class="videoBanniere">
+                                    <video src="video/erreur_404.mp4" muted loop></video>
+                                    <img src="img/erreur_404.png" alt="">
+                                    <h3>Erreur 404</h3>
+                                </div>
+                                <div class="videoInfos">
+                                    <!-- <a href="https://youtu.be/e2NglI7UE68" target="_blank">
+                                    </a> -->
+                                    <h3>Erreur 404</h3>
+                                    <p class="typeEtDate">Motion design | 2020</p>
+                                    <div class="videoInfosPlus flex hidden">
+                                        <span class="videoInfosPlus_colonneG">
+                                            <p>• Réalisation personnelle.</p>
+                                            <p>• Création d'une animation pour participer au concours du cegep qui avait pour but de mettre à jour la page d'erreur 404 du serveur de l'établissement.</p>
+                                        </span>
+                                        <span class="videoInfosPlus_colonneD">
+                                            <p>• Projet individuel</p>
+                                            <p>• Logiciel utilisé : After Effects.</p>
+                                        </span>
+                                    </div>
+                                    <div class="iconContainer">
+                                        <img class="icon btnMute press" src="img/muet.svg" alt="">
+                                        <img class="icon btnInfosVideo press" src="img/plusInfos.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="videoBox">
+                                <div class="videoBanniere">
+                                    <video src="video/discord.mp4" muted loop></video>
+                                    <img src="img/discord.png" alt="">
+                                    <h3>Discord</h3>
+                                </div>
+                                <div class="videoInfos">
+                                    <!-- <a href="https://youtu.be/BvzeO4Z9RYE" target="_blank">
+                                    </a> -->
+                                    <h3>Discord</h3>
+                                    <p class="typeEtDate">Animation de logo | 2021</p>
+                                    <div class="videoInfosPlus flex hidden">
+                                        <span class="videoInfosPlus_colonneG">
+                                            <p>• Réalisé dans le cadre du cours de motion design.</p>
+                                            <p>• Commande : Réaliser une animation de logo selon ses
+                                                composants, ses caractéristiques, ses produits ou services offerts.</p>
+                                        </span>
+                                        <span class="videoInfosPlus_colonneD">
+                                            <p>• Projet individuel</p>
+                                            <p>• Logiciel utilisé : After Effects.</p>
+                                        </span>
+                                    </div>
+                                    <div class="iconContainer">
+                                        <img class="icon btnMute press" src="img/muet.svg" alt="">
+                                        <img class="icon btnInfosVideo press" src="img/plusInfos.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="titreCategorie">Montage :</h3>
+                    <div class="videosContainer flex center wrap">
+
+                        <div>
+                            <div class="videoBox">
+                                <div class="videoBanniere">
+                                    <video src="video/tp3_montage.mp4" muted loop></video>
+                                    <img src="img/tp3_montage.png" alt="">
+                                    <h3>Tourisme Gaspésie</h3>
+                                </div>
+                                <div class="videoInfos">
+                                    <!-- <a href="https://youtu.be/_ULoRUpPNtU" target="_blank">
+                                    </a> -->
+                                    <h3>Tourisme Gaspésie</h3>
+                                    <p class="typeEtDate">Vidéo publicitaire | 2020</p>
+                                    <div class="videoInfosPlus flex hidden">
+                                        <span class="videoInfosPlus_colonneG">
+                                            <p>• Réalisé dans le cadre du cours de montage vidéo.</p>
+                                            <p>• Commande : Réaliser le montage d’une publicité pour la prochaine saison touristique de Tourisme Îles de la madeleine.</p>
+                                        </span>
+                                        <span class="videoInfosPlus_colonneD">
+                                            <p>• Projet individuel</p>
+                                            <p>• Logiciel utilisé : Première Pro.</p>
+                                        </span>
+                                    </div>
+                                    <div class="iconContainer">
+                                        <img class="icon btnMute press" src="img/muet.svg" alt="">
+                                        <img class="icon btnInfosVideo press" src="img/plusInfos.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="videoBox">
+                                <div class="videoBanniere">
+                                    <video src="video/tp3_motionDesign.mp4" muted loop></video>
+                                    <img src="img/polar.png" alt="">
+                                    <h3>Polar</h3>
+                                </div>
+                                <div class="videoInfos">
+                                    <h3>Polar</h3>
+                                    <p class="typeEtDate">Motion design | 2021</p>
+                                    <div class="videoInfosPlus flex hidden">
+                                        <span class="videoInfosPlus_colonneG">
+                                            <p>• Réalisé dans le cadre du cours de motion design.</p>
+                                            <p>• Commande : Réaliser la présentation d’une marque sportive/produit sportif en
+                                                motion design. La
+                                                présentation se fait à l’aide d’informations, de statistiques et autres
+                                                éléments importants pour le produit et la marque.</p>
+                                        </span>
+                                        <span class="videoInfosPlus_colonneD">
+                                            <p>• Projet individuel</p>
+                                            <p>• Logiciel utilisé : Premiere Pro, After Effects.</p>
+                                        </span>
+                                    </div>
+                                    <div class="iconContainer">
+                                        <img class="icon btnMute press" src="img/muet.svg" alt="">
+                                        <img class="icon btnInfosVideo press" src="img/plusInfos.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="videoBox">
+                                <div class="videoBanniere">
+                                    <video src="video/ski.mp4" muted loop></video>
+                                    <img src="img/ski.png" alt="">
+                                    <h3>Esprit Libre</h3>
+                                </div>
+                                <div class="videoInfos">
+                                    <!-- <a href="https://youtu.be/IxLbqwj_2ko" target="_blank">
+                                    </a> -->
+                                    <h3>Esprit Libre</h3>
+                                    <p class="typeEtDate">Motion design | 2021</p>
+                                    <div class="videoInfosPlus flex hidden">
+                                        <span class="videoInfosPlus_colonneG">
+                                            <p>• Réalisé dans le cadre du cours de motion design.</p>
+                                            <p>• Commande : Réaliser une conception
+                                                graphique animée sous After-Effects d’un mandat client au choix. Pour ce mandat 2 clips doivent être réalisé.</p>
+                                        </span>
+                                        <span class="videoInfosPlus_colonneD">
+                                            <p>• Projet en équipe. J'ai réalisé le montage sur le ski et mon collègue celui sur les motoneiges.</p>
+                                            <p>• Logiciel utilisé : Premiere Pro, After Effects.</p>
+                                        </span>
+                                    </div>
+                                    <div class="iconContainer">
+                                        <img class="icon btnMute press" src="img/muet.svg" alt="">
+                                        <img class="icon btnInfosVideo press" src="img/plusInfos.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="jeuxContainer" id="jeuxVideo">
+
+                    <h3 class="titreCategorie">Jeux vidéo :</h3>
+
+                    <div class="jeuBox flex spaceB reveal">
+                        <img src="img/ceiba.png" alt="Ceiba_capture">
+                        <div class="infosJeux">
+                            <h3>Ceiba</h3>
+                            <h4>Jeu solo 2D | Unity C#</h4>
+                            <p>• Réalisé dans le cadre du cours de réalisation multimédia. J'étais en charge de la programmation des menus et de la création des musiques et effet sonore.<br><br>• Ceiba est un jeu vidéo narratif multiple racontant l’exploration
+                                d’un archéologue parti en quête de découverte. Le joueuer aura la possibilité d’incarner deux histoires, celle de l’explorateur, et celle du chaman.</p>
+
+                            <a href="/etudiants/2019/turpinl/portfolio/ressources/Ceiba.zip" download="Ceiba.zip"><button class="press">TÉLECHARGER</button></a>
+                        </div>
+                        <div id="particles1" class="particles-js"></div>
+                    </div>
+
+                    <div class="jeuBox flex spaceB reveal">
+                        <img src="img/swordash.png" alt="Swordash_capture">
+                        <div class="infosJeux">
+                            <h3>SworDash</h3>
+                            <h4>Jeu multi 2D | Unity C#</h4>
+                            <p>• Réalisé dans le cadre du cours de conception interactive. J'étais en charge de la programmation des menus et des effet sonores<br><br>• SworDash est un jeu vidéo style versus rappelant les jeux d’arcade. Le jeu vous propose
+                                d’affronter votre adversaire lors d’un combat amusant et surtout très dynamique, ou la vitesse d’exécutions sera le principal composant de votre victoire.
+                            </p>
+                            <a href="/etudiants/2019/turpinl/portfolio/ressources/SworDash.zip" download="SworDash.zip"><button class="press">TÉLECHARGER</button></a>
+                        </div>
+                        <div id="particles2" class="particles-js"></div>
+                    </div>
+
+                    <div class="jeuBox flex spaceB reveal">
+                        <img src="img/monsterTruck.png" alt="monsterTruck_capture">
+                        <div class="infosJeux">
+                            <h3>Monster Truck</h3>
+                            <h4>Jeu solo 2D | Unity C#</h4>
+                            <p>• Réalisé dans le cadre du cours d'application interactive. J'étais en charge de toute la programmation.<br><br>• Monster Truck est un jeu de conduite en 2D et en vue de côté. L’objectif principal est de faire un maximum de
+                                point en ramassant les différents objets sur le terrain et en effectuant des acrobaties avec le véhicule.
+                            </p>
+                            <a href="/etudiants/2019/turpinl/portfolio/ressources/Monster_truck.zip" download="Monster_truck.zip"><button class="press">TÉLECHARGER</button></a>
+                        </div>
+                        <div id="particles3" class="particles-js"></div>
+                    </div>
+
+                    <div class="jeuBox flex spaceB reveal">
+                        <img src="img/keepDrawing.png" alt="KeepDrawing_capture">
+                        <div class="infosJeux">
+                            <h3>Keep Drawing</h3>
+                            <h4>Jeu solo 2D | Unity C#</h4>
+                            <p>• Réalisé dans le cadre du projet de fin d"étude. Je me suis occupé de toute la programmation<br><br>• Keep Drawing est un jeu de plateforme où vous incarnez un enfant débordant d'imagination qui rentre chez lui. Vous contrôler
+                                également son ami imaginaire qui lui permettra de surmonter les obstacles qui se dresseront sur son chemin.</p>
+                            <a href="https://tim.cgmatane.qc.ca/PFE/2022/eq11/Keepdrawing/" target="_blank"><button class="press">TÉLECHARGER</button></a>
+                        </div>
+                        <div id="particles4" class="particles-js"></div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <footer id="contact">
+                <h2>Contacter moi !</h2>
+                <section class="flex spaceE wrap">
+
+                    <div class="coordonneeContainer">
+                        <div>
+                            <a href="/etudiants/2019/turpinl/portfolio/ressources/Loic_Turpin_CV.pdf" download="Loic_Turpin_CV">
+                                <img src="img/download.svg" alt="download_logo" class="logoMini">
+                                <p>Télécharger mon CV</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/loïc-turpin-627239224" target="_blank">
+                                <img src="img/linkedin.svg" alt="linkedin_logo" class="logoMini">
+                                <p>Linkedin</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="coordonneeContainer">
+                        <div>
+                            <img src="img/mail.svg" alt="email_logo" class="logoMini">
+                            <p>loic.turpin97430@gmail.com</p>
+                        </div>
+                        <div>
+                            <img src="img/phone.svg" alt="phone_logo" class="logoMini">
+                            <p>06 28 62 45 36</p>
+                        </div>
+                    </div>
+                </section>
+                <p class="copyright">&copy;2023, Loïc Turpin, Programmeur / Intégrateur Web</p>
+            </footer>
+        </main>
+    </section>
+
+</body>
+
+</html>
